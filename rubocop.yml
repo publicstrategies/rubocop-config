@@ -261,7 +261,7 @@ Layout/ArgumentAlignment:
   #
   #     method_call(a,
   #       b)
-  EnforcedStyle: with_first_argument
+  EnforcedStyle: with_fixed_indentation
   SupportedStyles:
     - with_first_argument
     - with_fixed_indentation
@@ -290,7 +290,7 @@ Layout/ArrayAlignment:
   #
   #     array = [1, 2, 3,
   #       4, 5, 6]
-  EnforcedStyle: with_first_element
+  EnforcedStyle: with_fixed_indentation
   SupportedStyles:
     - with_first_element
     - with_fixed_indentation
@@ -1050,7 +1050,7 @@ Layout/ParameterAlignment:
   #
   #     def method_foo(a,
   #       b)
-  EnforcedStyle: with_first_parameter
+  EnforcedStyle: with_fixed_indentation
   SupportedStyles:
     - with_first_parameter
     - with_fixed_indentation
@@ -2633,7 +2633,7 @@ Style/ClassAndModuleChildren:
   # manual oversight.
   SafeAutoCorrect: false
   AutoCorrect: false
-  Enabled: true
+  Enabled: false
   VersionAdded: '0.19'
   #
   # Basically there are two different styles:
