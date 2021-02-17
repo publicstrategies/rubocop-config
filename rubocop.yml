@@ -1021,7 +1021,7 @@ Layout/MultilineOperationIndentation:
                  one line.
   Enabled: true
   VersionAdded: '0.49'
-  EnforcedStyle: aligned
+  EnforcedStyle: indented
   SupportedStyles:
     - aligned
     - indented
